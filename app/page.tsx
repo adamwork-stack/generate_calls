@@ -6,10 +6,12 @@ import CTA from "@/components/CTA";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import StructuredData from "@/components/StructuredData";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <StructuredData />
       <Header />
       <Hero />
       <Services />
