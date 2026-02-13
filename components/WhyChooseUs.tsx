@@ -144,7 +144,7 @@ const WhyChooseUs = () => {
         >
           <h2 className="heading-secondary mb-4">Why Choose Us?</h2>
           <p className="text-body max-w-2xl mx-auto">
-            We're not just another service company. Here's what sets us apart
+            We&apos;re not just another service company. Here&apos;s what sets us apart
             and makes us the right choice for you.
           </p>
         </motion.div>

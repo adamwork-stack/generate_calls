@@ -46,7 +46,7 @@ const Testimonials = () => {
         >
           <h2 className="heading-secondary mb-4">What Our Customers Say</h2>
           <p className="text-body max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what real customers have to
+            Don&apos;t just take our word for it. Here&apos;s what real customers have to
             say about their experience with us.
           </p>
         </motion.div>
@@ -73,7 +73,7 @@ const Testimonials = () => {
                   </svg>
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"{testimonial.text}"</p>
+              <p className="text-gray-700 mb-6 italic">&quot;{testimonial.text}&quot;</p>
               <div className="border-t border-primary-200 pt-4">
                 <p className="font-semibold text-gray-900">{testimonial.name}</p>
                 <p className="text-sm text-gray-600">{testimonial.location}</p>

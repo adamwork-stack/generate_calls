@@ -86,7 +86,7 @@ const ContactForm = () => {
             Get Your Free Quote Today
           </h2>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto">
-            Fill out the form below or call us directly. We'll get back to you
+            Fill out the form below or call us directly. We&apos;ll get back to you
             within 24 hours.
           </p>
         </motion.div>
@@ -215,7 +215,7 @@ const ContactForm = () => {
 
               {submitStatus === "success" && (
                 <div className="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg">
-                  Thank you! We've received your message and will contact you
+                  Thank you! We&apos;ve received your message and will contact you
                   soon.
                 </div>
               )}
